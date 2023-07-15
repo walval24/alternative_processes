@@ -16,7 +16,7 @@ function HeroSection() {
   }; 
   return (
     <div className='hero-container'>
-      <video src='' autoPlay loop muted />
+      <video className="hero-video" src="/public/videos/video-test.mp4" autoPlay loop muted />
       <h1>Alternative Processes</h1>
       <p>Discover the Academy</p>
       <div className='hero-btns'>
