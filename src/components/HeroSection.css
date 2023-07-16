@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@100&display=swap');
+
 .hero-video {
   object-fit: cover;
   width: 100%;
@@ -20,6 +22,7 @@
 
 .hero-container > h1 {
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
   font-size: 100px;
   margin-top: -100px;
 }
@@ -28,45 +31,39 @@
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Stile per il div dei bottoni */
 .hero-btns {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; /* Aggiungi la distanza dal contenuto sopra se necessario */
+  margin-top: 20px;
 }
 
-/* Stile per i bottoni */
 .hero-btns .btn {
-  margin: 10px; /* Aggiungi il margine tra i bottoni */
-  font-size: 16px; /* Aggiungi la dimensione del testo, se necessario */
-  /* Altri stili comuni per i bottoni, se necessario */
+  margin: 10px;
+  font-size: 24px;
+  
 }
 
-/* Stile per il bottone "Get Info" */
 .hero-btns .btn.get-info-btn {
   color: white;
-  background-color: #007bff;
-  /* Aggiungi altri stili specifici per il bottone "Get Info" */
+  background-color: #36278b;
+  border: none;
 }
 
-/* Stile per il bottone "Enroll" */
 .hero-btns .btn.enroll-btn {
-  color: #007bff;
+  color: #36278b;
   background-color: white;
-  border: 1px solid #007bff;
-  /* Aggiungi altri stili specifici per il bottone "Enroll" */
+  border: none;
 }
 
 .fa-play-circle {
   margin-left: 4px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1080px) {
   .hero-container > h1 {
     font-size: 70px;
     margin-top: -150px;
@@ -78,17 +75,49 @@
     font-size: 50px;
     margin-top: -100px;
   }
+  
 
   .hero-container > p {
     font-size: 30px;
   }
 
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
+
+
+}
+
+@media screen and (max-width: 550px) {
+  .hero-container > h1 {
+    font-size: 40px;
+    margin-top: -200px;
   }
 
-  .btn {
-    width: 100%;
+  .hero-container > p {
+    font-size: 25px;
   }
+
+}
+
+@media screen and (max-width: 850px) {
+  .hero-btns .btn {
+    font-size: 18px;
+  
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero-container > h1 {
+    font-size: 24px;
+    margin-top: -220px;
+  }
+
+  .hero-container > p {
+    font-size: 14px;
+  }
+
+  .hero-btns .btn {
+    font-size: 12px;
+    margin-top: 0%;
+  
+  }
+
 }

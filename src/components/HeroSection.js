@@ -22,8 +22,8 @@ function HeroSection() {
       <h1>Alternative Processes</h1>
       <p>Discover the Academy</p>
       <div className='hero-btns'>
-        <Button className="get-info-btn" onClick={handleGetInfo}>Get Info</Button>
-        <Button className="enroll-btn" onClick={handleEnroll}>Enroll</Button>
+        <Button className="btn get-info-btn" onClick={handleGetInfo}>INFO</Button>
+        <Button className="btn enroll-btn" onClick={handleEnroll}>ENROLL</Button>
       </div>
     </div>
   );

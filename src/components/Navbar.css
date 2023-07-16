@@ -15,10 +15,11 @@
 
 .navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 65px;
   max-width: 1500px;
+  width: 100%; /* Aggiungi questa riga per occupare l'intera larghezza */
 }
 
 .navbar-logo {
@@ -41,10 +42,11 @@
 
 .nav-menu {
   display: flex;
+  justify-content: center; /* Centra i link nella navbar */
   list-style: none;
   text-align: center;
-  margin-right: auto; /* Per spostare i link a sinistra */
-  height: 100%; 
+  height: 100%;
+  flex: 1; /* Aggiungi questa riga per occupare lo spazio disponibile */
 }
 
 .nav-item {
