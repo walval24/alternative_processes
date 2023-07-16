@@ -32,12 +32,34 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+/* Stile per il div dei bottoni */
 .hero-btns {
-  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Aggiungi la distanza dal contenuto sopra se necessario */
 }
 
+/* Stile per i bottoni */
 .hero-btns .btn {
-  margin: 6px;
+  margin: 10px; /* Aggiungi il margine tra i bottoni */
+  font-size: 16px; /* Aggiungi la dimensione del testo, se necessario */
+  /* Altri stili comuni per i bottoni, se necessario */
+}
+
+/* Stile per il bottone "Get Info" */
+.hero-btns .btn.get-info-btn {
+  color: white;
+  background-color: #007bff;
+  /* Aggiungi altri stili specifici per il bottone "Get Info" */
+}
+
+/* Stile per il bottone "Enroll" */
+.hero-btns .btn.enroll-btn {
+  color: #007bff;
+  background-color: white;
+  border: 1px solid #007bff;
+  /* Aggiungi altri stili specifici per il bottone "Enroll" */
 }
 
 .fa-play-circle {

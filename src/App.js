@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';

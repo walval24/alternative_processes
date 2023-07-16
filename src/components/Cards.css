@@ -1,0 +1,16 @@
+.last-articles-container {
+    background-color: white;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Cards.css */
+.card-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover; /* Per mantenere l'immagine proporzionata e riempire l'area assegnata */
+  }
+  
