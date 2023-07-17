@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@100&display=swap');
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.small{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}

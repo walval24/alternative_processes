@@ -2,13 +2,14 @@ import React from "react";
 import "./BlogPost.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 function BlogPost() {
   return (
     <>
       <section className="py-1 header text-center">
         <div className="container py-4">
           <header>
-            <h4 className="">Bootstrap masonry</h4>
+            <h4 className="title">All Articles</h4>
           </header>
         </div>
       </section>
