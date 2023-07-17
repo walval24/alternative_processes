@@ -9,7 +9,7 @@ function HeroSection() {
   const history = useHistory();
 
   const handleGetInfo = () => {
-    history.push('/services');
+    history.push('/academy');
   };
 
   const handleEnroll = () => {

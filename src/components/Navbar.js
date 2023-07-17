@@ -40,7 +40,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/alternative-processes-online-course"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -49,7 +49,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/ap-cheat-sheets"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -58,7 +58,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/blog"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -67,7 +67,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/online-exhibitions"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -76,7 +76,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/contacts"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
